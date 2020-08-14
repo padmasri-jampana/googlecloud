@@ -2,22 +2,22 @@
 var userinput=prompt("Enter the image name","day");
 if(userinput=="cloud"){
 var img = document.createElement('img'); 
-            img.src =  'https://storage.cloud.google.com/assign-bucket/cloud/cloud.jpg'; 
+            img.src =  'https://storage.cloud.google.com/image-appengine/cloud/cloud.jpg'; 
             document.getElementById('body').appendChild(img).width="400"; 
 }
 else if(userinput=="facebook"){
 var img = document.createElement('img'); 
-            img.src =  'https://storage.cloud.google.com/assign-bucket/cloud/facebook.jpg'; 
+            img.src =  'https://storage.cloud.google.com/image-appengine/cloud/facebook.jpg'; 
             document.getElementById('body').appendChild(img).width="400"; 
 }
 else if(userinput=="flower"){
 var img = document.createElement('img'); 
-            img.src =  'https://storage.cloud.google.com/assign-bucket/cloud/flower.jpg'; 
+            img.src =  'https://storage.cloud.google.com/image-appengine/cloud/flower.jpg'; 
             document.getElementById('body').appendChild(img).width="400"; 
 }
 else if(userinput=="robot"){
 var img = document.createElement('img'); 
-            img.src =  'https://storage.cloud.google.com/assign-bucket/cloud/robot.jpg'; 
+            img.src =  'https://storage.cloud.google.com/image-appengine/cloud/robot.jpg'; 
             document.getElementById('body').appendChild(img).width="400"; 
 }
 
